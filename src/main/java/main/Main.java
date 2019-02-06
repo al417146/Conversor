@@ -2,7 +2,7 @@ package main;
 
 import conversor.Conversor;
 import conversor.Fahrenheit;
-import conversor.Reamur;
+import conversor.Reaumur;
 
 public class Main {
 //    public double fahrenheit(double celsius) {
@@ -16,10 +16,10 @@ public class Main {
     public static void main (String [] args) {
         Main main = new Main();
         Conversor fahrenheit = new Fahrenheit();
-        Conversor reamur = new Reamur();
-        System.out.println("Celsius "+ "Farenheit "+ "Reamur");
+        Conversor reaumur = new Reaumur();
+        System.out.println("Celsius "+ "Farenheit "+ "Reaumur");
         for(int celsius = 0; celsius <= 100; celsius += 5) {
-            System.out.println(+celsius+" \t"+ fahrenheit.convierte(celsius) + " \t"+ reamur.convierte(celsius)+" \t");
+            System.out.println(+celsius+" \t"+ fahrenheit.convierte(celsius) + " \t"+ reaumur.convierte(celsius)+" \t");
         }
     }
 }

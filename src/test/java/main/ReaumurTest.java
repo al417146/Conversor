@@ -1,19 +1,19 @@
 package main;
 
 import conversor.Conversor;
-import conversor.Reamur;
+import conversor.Reaumur;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class ReamurTest {
+public class ReaumurTest {
     private static Conversor reamur;
 
     @BeforeClass
     public static void inicia() {
-        reamur = new Reamur();
+        reamur = new Reaumur();
     }
 
     @AfterClass
