@@ -16,6 +16,10 @@ public class TablaConversion {
 
     public String escribeTabla() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Celsius" + " ");
+        sb.append("Reaumur" + " ");
+        sb.append("Fahrenheit" + " ");
+        sb.append("\n");
         for (int celsius = 0; celsius <= 100; celsius += 5) {
             sb.append(celsius + ", ");
             for(Conversor conversor: conversores) {
